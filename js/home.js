@@ -1,32 +1,3 @@
-// Animated Background Particles
-function createParticles() {
-    const container = document.getElementById("bgAnimation");
-    const particleCount = 50;
-    const colors = ["#ff006e", "#00d4ff", "#00ff88", "#ffbe0b", "#8338ec"];
-
-    for (let i = 0; i < particleCount; i++) {
-        const particle = document.createElement("div");
-        particle.className = "particle";
-
-        // Random size between 3px and 8px
-        const size = Math.random() * 5 + 3;
-        particle.style.width = size + "px";
-        particle.style.height = size + "px";
-
-        // Random color
-        particle.style.backgroundColor =
-            colors[Math.floor(Math.random() * colors.length)];
-
-        // Random starting position
-        particle.style.left = Math.random() * 100 + "%";
-        particle.style.top = Math.random() * 100 + "%";
-
-        container.appendChild(particle);
-
-        // Animate particle
-        animateParticle(particle);
-    }
-}
 
 function animateParticle(particle) {
     const duration = Math.random() * 20000 + 15000; // 15-35 seconds
