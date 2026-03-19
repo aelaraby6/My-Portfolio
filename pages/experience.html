@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience - Abdelrahman Elaraby</title>
+    <link rel="stylesheet" href="../css/experience.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="background-animation" id="bgAnimation"></div>
+
+    <!-- Navigation -->
+      <nav class="navbar">
+      <a class="logo" href="../index.html">Abdelrahman</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html" class="active">Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+      </ul>
+      <a href="../data/cv.pdf" target="_blank" class="cv-download-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download CV
+      </a>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="experience-section">
+      <div class="section-header">
+        <h1 class="section-title">Work Experience</h1>
+        <p class="section-subtitle">My professional journey and real-world contributions</p>
+      </div>
+
+      <!-- Experience Timeline -->
+      <div class="timeline-container" id="timelineContainer">
+        <!-- Timeline items will be inserted here by JavaScript -->
+      </div>
+    </main>
+
+    <!-- Image Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-overlay" onclick="closeLightbox()"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" onclick="closeLightbox()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+        <img id="lightboxImg" src="" alt="Preview" />
+      </div>
+    </div>
+
+    <script src="../js/experience.js"></script>
+  </body>
+</html>
