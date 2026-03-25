@@ -44,7 +44,7 @@ const projectsData = [
     description: "open-source, database-driven web and desktop application designed to manage business incubator operations efficiently",
     stack: ["Node.js", "PostgreSQL", "Express.js", "EJS"],
     github: "https://github.com/aelaraby6/Business-Incubator-Platform-DBMS",
-    demo: "",
+    demo: "https://abd0selim2.alwaysdata.net",
   },
   {
     id: 5,
