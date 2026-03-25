@@ -57,6 +57,16 @@ const projectsData = [
     demo: "",
   },
   {
+  id: 7,
+  title: "Bibliophile Analytics Engine",
+  emoji: "📚",
+  image: "../images/bibliophile_analytics_cover.svg",
+  description: "AI-powered analytics platform for book insights, user behavior, and subscription intelligence. Built with Node.js + FastAPI sharing a MongoDB database, featuring ML recommendations, Gemini AI, and interactive Plotly dashboards.",
+  stack: ["Node.js", "TypeScript", "Python", "FastAPI", "MongoDB", "Stripe", "Gemini AI"],
+  github: "https://github.com/aelaraby6/Bibliophile-Analytics-Engine",
+  demo: "",
+},,
+  {
     id: 6,
     title: "EchoSteps",
     emoji: "⚙️",
