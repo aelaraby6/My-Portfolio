@@ -1,7 +1,3 @@
-// ─── Projects Data ────────────────────────────────────────────────────────────
-// image: path to image, or "" to show emoji placeholder
-// github: URL string, or "" for no link
-// demo: URL string, or "" for no link
 const projectsData = [
   {
     id: 1,
