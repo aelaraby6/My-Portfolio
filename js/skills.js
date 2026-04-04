@@ -20,11 +20,13 @@ const skillsData = [
   {
     label: "Frameworks & Libraries",
     skills: [
-      { name: "React.js",   icon: `${DI}/react/react-original.svg` },
-      { name: "Node.js",    icon: `${DI}/nodejs/nodejs-original.svg` },
-      { name: "Express.js", icon: `${DI}/express/express-original.svg`, invert: true },
-      { name: "NumPy",      icon: `${DI}/numpy/numpy-original.svg` },
-      { name: "Pandas",     icon: `${DI}/pandas/pandas-original.svg` },
+      { name: "React.js",    icon: `${DI}/react/react-original.svg` },
+      { name: "Node.js",     icon: `${DI}/nodejs/nodejs-original.svg` },
+      { name: "Express.js",  icon: `${DI}/express/express-original.svg`, invert: true },
+      { name: "NumPy",       icon: `${DI}/numpy/numpy-original.svg` },
+      { name: "Pandas",      icon: `${DI}/pandas/pandas-original.svg` },
+      { name: "Scikit-learn", icon: `${DI}/scikitlearn/scikitlearn-original.svg` },
+      { name: "Matplotlib",  icon: `${DI}/matplotlib/matplotlib-original.svg` },
     ],
   },
   {
@@ -36,6 +38,8 @@ const skillsData = [
       { name: "Redis",      icon: `${DI}/redis/redis-original.svg` },
       { name: "Git",        icon: `${DI}/git/git-original.svg` },
       { name: "Docker",     icon: `${DI}/docker/docker-original.svg` },
+      { name: "Figma",      icon: `${DI}/figma/figma-original.svg` },
+      { name: "ERPNext",    icon: `${SI}/erpnext`, isSI: true },
       { name: "Vercel",     icon: `${SI}/vercel/white`, invert: false, isSI: true },
       { name: "Postman",    icon: `${SI}/postman`, isSI: true },
       { name: "Swagger",    icon: `${SI}/swagger`, isSI: true },
@@ -167,4 +171,3 @@ document.addEventListener("DOMContentLoaded", () => {
   renderSkills();
   initMobileMenu();
 });
-// test
