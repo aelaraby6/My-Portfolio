@@ -3,34 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdelrahman Elaraby - Portfolio</title>
-  <link rel="stylesheet" href="css/home.css" />
+  <title>Abdelrahman Elaraby</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/shared.css" />
+  <link rel="stylesheet" href="css/home.css" />
 </head>
 <body>
   <div class="background-animation" id="bgAnimation"></div>
 
-   <nav class="navbar">
-  <a class="logo" href="#" onclick="window.location.href='index.html'; return false;">Abdelrahman</a>
-  <ul class="nav-links">
-    <li><a href="#" class="active" onclick="window.location.href='index.html'; return false;">Home</a></li>
-    <li><a href="#" onclick="window.location.href='pages/education.html'; return false;">Education</a></li>
-    <li><a href="#" onclick="window.location.href='pages/experience.html'; return false;">Experience</a></li>
-    <li><a href="#" onclick="window.location.href='pages/projects.html'; return false;">Projects</a></li>
-    <li><a href="#" onclick="window.location.href='pages/skills.html'; return false;">Skills</a></li>
-  </ul>
-   <a href="data/cv.pdf" target="_blank" class="cv-download-btn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-          <polyline points="7 10 12 15 17 10"></polyline>
-          <line x1="12" y1="15" x2="12" y2="3"></line>
-        </svg>
-        Download CV
-      </a>
-  <button class="mobile-menu-toggle" aria-label="Toggle menu">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
+  <!-- Navbar injected by utils.js -->
+  <div id="navbar-root"></div>
 
   <!-- Hero Section -->
   <section class="hero-section" id="home">
@@ -48,60 +32,69 @@
 
       <!-- Social Links -->
       <div class="social-links">
-
-        <!-- LinkedIn -->
         <a href="https://www.linkedin.com/in/abdelrahman-elaraby-a06a492a5/" target="_blank" class="social-icon" aria-label="LinkedIn" style="--hover-bg: rgba(0,119,181,0.15); --hover-shadow: rgba(0,119,181,0.45); --icon-color: #0077b5;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
           </svg>
         </a>
-
-        <!-- GitHub -->
         <a href="https://github.com/aelaraby6" target="_blank" class="social-icon" aria-label="GitHub" style="--hover-bg: rgba(255,255,255,0.1); --hover-shadow: rgba(255,255,255,0.25); --icon-color: #f0f0f0;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
           </svg>
         </a>
-
-        <!-- Codeforces -->
         <a href="https://codeforces.com/profile/aelaraby_ae" target="_blank" class="social-icon" aria-label="Codeforces" style="--hover-bg: rgba(26,150,220,0.15); --hover-shadow: rgba(26,150,220,0.4); --icon-color: #1a96dc;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5V19.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V4.5C9 3.672 9.672 3 10.5 3h3zm9 7.5c.828 0 1.5.672 1.5 1.5v9c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-9c0-.828.672-1.5 1.5-1.5h3z"/>
           </svg>
         </a>
-
-        <!-- LeetCode -->
         <a href="https://leetcode.com/u/aelaraby2/" target="_blank" class="social-icon" aria-label="LeetCode" style="--hover-bg: rgba(255,161,22,0.15); --hover-shadow: rgba(255,161,22,0.4); --icon-color: #ffa116;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
           </svg>
         </a>
-
-        <!-- HackerRank -->
         <a href="https://www.hackerrank.com/profile/abdelrahman_ela4" target="_blank" class="social-icon" aria-label="HackerRank" style="--hover-bg: rgba(0,234,182,0.15); --hover-shadow: rgba(0,234,182,0.4); --icon-color: #00eab6;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 0c1.285 0 9.75 4.886 10.392 6 .645 1.115.645 10.885 0 12S13.287 24 12 24C10.712 24 2.25 19.114 1.608 18 .963 16.886.963 7.114 1.608 6 2.25 4.886 10.715 0 12 0zm-.91 4.797l-.014.014c-.31.31-.308.807.002 1.116l.013.013 5.728 5.728-5.728 5.73-.013.013a.79.79 0 0 0 .012 1.12l.014.013a.791.791 0 0 0 1.12-.011l.013-.014 6.29-6.29.013-.012a.789.789 0 0 0-.013-1.12l-.013-.013-6.29-6.29-.013-.013a.789.789 0 0 0-1.12.012zm-2.48 3.74l-.013.014a.79.79 0 0 0 .013 1.12L11.338 12l-2.728 2.728-.013.013a.79.79 0 0 0 .011 1.12l.014.014a.793.793 0 0 0 1.12-.012l.013-.014L13.046 13l.014-.013a.789.789 0 0 0-.014-1.12l-.013-.013-2.729-2.729-.013-.014a.793.793 0 0 0-1.12.012l-.013.014z"/>
           </svg>
         </a>
-
-        <!-- Email -->
         <a href="mailto:abdelrahman.elaraby777@gmail.com" class="social-icon" aria-label="Email" style="--hover-bg: rgba(234,67,53,0.15); --hover-shadow: rgba(234,67,53,0.4); --icon-color: #ea4335;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
           </svg>
         </a>
-
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+
+  <section class="cv-section" id="cv">
+    <div class="cv-section-header">
+      <h2 class="cv-section-title">My Resume</h2>
+      <p class="cv-section-subtitle">View or download my full CV</p>
+    </div>
+    <div class="cv-box">
+      <div class="cv-box-header">
+        <span class="cv-box-label">Abdelrahman_Elaraby_CV.pdf</span>
+        <a href="data/cv.pdf" target="_blank" class="cv-box-download">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download
+        </a>
+      </div>
+      <iframe src="data/cv.pdf" class="cv-iframe" title="Abdelrahman Elaraby CV"></iframe>
+    </div>
+  </section>
+
+
+   <!-- Contact Section -->
   <section class="contact-section" id="contact">
     <div class="quote">
       <div class="quote-icon">❝❞</div>
       <p class="quote-text">Pressure Creates Diamonds</p>
     </div>
-
     <div class="contact-container">
       <div class="illustration-container">
         <img src="images/conan.png" alt="Contact Illustration" />
@@ -130,6 +123,7 @@
     </div>
   </section>
 
+  <script src="js/utils.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>
