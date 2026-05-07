@@ -17,18 +17,21 @@ function initNavbar(activePage) {
   const cvIconSVG = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>`;
 
   const navHTML = `
-    <nav class="navbar">
-      <a class="logo" href="${base}index.html">Abdelrahman</a>
-      <ul class="nav-links">
-        ${linksHTML}
-        <li class="cv-mobile-item">
-          <a href="${cvPath}" target="_blank">${cvIconSVG} Download CV</a>
-        </li>
-      </ul>
+  <nav class="navbar">
+    <a class="logo" href="${base}index.html">Abdel<span style="color:#00d4ff">rahman</span></a>
+    <ul class="nav-links">
+      ${linksHTML}
+      <li class="cv-mobile-item">
+        <a href="${cvPath}" target="_blank">${cvIconSVG} Download CV</a>
+      </li>
+    </ul>
+    <div class="nav-right">
+      <a class="cv-btn" href="${cvPath}" target="_blank">${cvIconSVG} CV</a>
       <button class="mobile-menu-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
-    </nav>`;
+    </div>
+  </nav>`;
 
   const root = document.getElementById('navbar-root');
   if (root) root.innerHTML = navHTML;
