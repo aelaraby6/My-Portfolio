@@ -1,0 +1,69 @@
+[
+  {
+    "id": "zagazig-cs",
+    "institution": "Zagazig University",
+    "degree": "B.Sc. in Computer Science",
+    "faculty": "Faculty of Computers and Informatics",
+    "date": "Oct 2023 — Jul 2027",
+    "status": "In Progress (Expected 2027)",
+    "icon": "./images/Zagazig_univeristy_logo.png",
+    "gpa": "3.96 / 4.00",
+    "rank": "Ranked 1st / Top 1%",
+    "location": "Egypt",
+    "description": "Comprehensive academic study encompassing computational theory, data structures, algorithm optimization, systems design, and database architecture.",
+    "courses": [
+      { "name": "Data Structures", "grade": "A+" },
+      { "name": "Algorithms", "grade": "A+" },
+      { "name": "Database Design", "grade": "A+" },
+      { "name": "OOP", "grade": "A+" }
+    ],
+    "activities": [
+      "HR Head at ICPC Zagazig Community",
+      "Member of IEEE",
+      "Member of Zag Eng Family"
+    ],
+    "skills": [
+      "OOP",
+      "Database Design",
+      "Data Structures",
+      "Algorithms",
+      "Cloud Computing",
+      "System Design"
+    ],
+    "images": []
+  },
+  {
+    "id": "iti-frontend",
+    "institution": "Information Technology Institute (ITI)",
+    "degree": "Front End Development Specialization",
+    "faculty": "Ministry of Communications and Information Technology (MCIT)",
+    "date": "Jul 2025 — Aug 2025",
+    "status": "Graduated with Honors",
+    "icon": "./images/iti.jpg",
+    "gpa": null,
+    "rank": "Top Performer Distinction",
+    "location": "Egypt",
+    "description": "Selected among the top-performing members of the intensive software training program. Honored at the official closing ceremony.",
+    "courses": [],
+    "activities": [
+      "Completed intensive hands-on track in Frontend Engineering and Modern React Ecosystem",
+      "Received formal recognition from the President of Zagazig University and the Director of ITI at the graduation ceremony"
+    ],
+    "skills": [
+      "React.js",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Responsive UI/UX",
+      "State Management"
+    ],
+    "project": {
+      "name": "Rochetta — Healthcare Graduation Project",
+      "link": "https://github.com/aelaraby6/Rochetta"
+    },
+    "images": [
+      "./images/iti_cermoney.jpg",
+      "./images/certificates/iti.jpg"
+    ]
+  }
+]

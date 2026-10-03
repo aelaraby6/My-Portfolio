@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Algorithm Analysis And Design",
+    "issuer": "Udemy",
+    "date": "May 2025",
+    "icon": "🌐",
+    "link": "https://drive.google.com/file/d/1Z0HkXV0gKsfn8Bi47LJjJJpz3ErqbfE4/view",
+    "image": "./images/certificates/algo.png",
+    "tag": "Algorithms"
+  },
+  {
+    "id": 2,
+    "title": "NASA Space Apps Challenge",
+    "issuer": "NASA",
+    "date": "October 2024",
+    "icon": "🚀",
+    "link": "https://drive.google.com/file/d/1eOWLXGpR_t1Pe2omBw4rcTTqAEuqdhkH/view",
+    "image": "./images/certificates/nasa.png",
+    "tag": "Hackathon & Space"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Intermediate",
+    "issuer": "HackerRank",
+    "date": "Sep 2025",
+    "icon": "⚡",
+    "link": "https://www.hackerrank.com/certificates/fd1c45b59f38",
+    "image": "./images/certificates/ja.png",
+    "tag": "Problem Solving"
+  },
+  {
+    "id": 4,
+    "title": "IEEE Basic AI Track",
+    "issuer": "IEEE",
+    "date": "October 2025",
+    "icon": "🤖",
+    "link": "https://drive.google.com/file/d/1rIx5xy1shzweGrEod_UC86oX1Amjt-da/view",
+    "image": "./images/certificates/ieee.png",
+    "tag": "Artificial Intelligence"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Fundamentals",
+    "issuer": "Udemy",
+    "date": "September 2023",
+    "icon": "📈",
+    "link": "https://drive.google.com/file/d/1h9jmfkDClM-M2swERiKmGyQXwvTli0Sr/view",
+    "image": "./images/certificates/google.png",
+    "tag": "Marketing & Strategy"
+  }
+]

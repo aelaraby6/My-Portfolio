@@ -1,0 +1,76 @@
+{
+  "name": "Abdelrahman Elaraby",
+  "displayName": "ABDELRAHMAN ELARABY",
+  "title": "Computer Science Student & Backend Developer",
+  "university": "Zagazig University",
+  "faculty": "Faculty of Computers & Informatics",
+  "graduationYear": "2027",
+  "gpa": "3.95 / 4.0",
+  "rank": "Ranked 1st / Top 1%",
+  "location": "Egypt",
+  "headline": "Building scalable software, backend systems, and AI-powered solutions.",
+  "quote": {
+    "text": "Pressure makes diamonds.",
+    "author": "George S. Patton"
+  },
+  "socials": [
+    {
+      "name": "gmail",
+      "handle": "@gmail",
+      "url": "mailto:abdelrahman.elaraby777@gmail.com",
+      "icon": "gmail"
+    },
+    {
+      "name": "github",
+      "handle": "@aelaraby6",
+      "url": "https://github.com/aelaraby6",
+      "icon": "github"
+    },
+    {
+      "name": "linkedin",
+      "handle": "/abdelrahman-elaraby",
+      "url": "https://www.linkedin.com/in/abdelrahman-elaraby-a06a492a5/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "codeforces",
+      "handle": "/aelaraby_ae",
+      "url": "https://codeforces.com/profile/aelaraby_ae",
+      "icon": "codeforces"
+    },
+    {
+      "name": "leetcode",
+      "handle": "/aelaraby2",
+      "url": "https://leetcode.com/u/aelaraby2/",
+      "icon": "leetcode"
+    },
+    {
+      "name": "hackerrank",
+      "handle": "/abdelrahman_ela4",
+      "url": "https://www.hackerrank.com/profile/abdelrahman_ela4",
+      "icon": "hackerrank"
+    },
+    {
+      "name": "kaggle",
+      "handle": "@aelaraby",
+      "url": "https://www.kaggle.com/aelaraby",
+      "icon": "kaggle"
+    }
+  ],
+  "links": {
+    "email": "mailto:abdelrahman.elaraby777@gmail.com",
+    "github": "https://github.com/aelaraby6",
+    "linkedin": "https://www.linkedin.com/in/abdelrahman-elaraby-a06a492a5/",
+    "codeforces": "https://codeforces.com/profile/aelaraby_ae",
+    "leetcode": "https://leetcode.com/u/aelaraby2/",
+    "hackerrank": "https://www.hackerrank.com/profile/abdelrahman_ela4",
+    "kaggle": "https://www.kaggle.com/aelaraby"
+  },
+  "interests": [
+    "Backend Development",
+    "Software Engineering",
+    "AI Integration",
+    "Networking",
+    "Cloud & Infrastructure"
+  ]
+}

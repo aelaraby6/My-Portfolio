@@ -1,0 +1,71 @@
+[
+  {
+    "id": "nokia",
+    "company": "Nokia",
+    "role": "Infrastructure Engineer Intern",
+    "type": "Internship",
+    "workMode": "Hybrid",
+    "location": "Cairo, Egypt",
+    "period": "Aug 2026 — Sep 2026",
+    "icon": "./images/nokia_logo.jpeg",
+    "highlights": [
+      "Completed an intensive IP Network Routing Specialist program, gaining deep expertise in routing architectures.",
+      "Mastered IP fundamentals, OSPF, MPLS, and BGP protocols, alongside network services and AI integration."
+    ],
+    "skills": [
+      "IP Routing",
+      "OSPF",
+      "MPLS",
+      "BGP",
+      "Network Infrastructure",
+      "AI Integration"
+    ]
+  },
+  {
+    "id": "bin-dhaen",
+    "company": "Bin Dhaen Group",
+    "role": "Software Engineer Intern",
+    "type": "Internship",
+    "workMode": "Remote",
+    "location": "Dubai, UAE",
+    "period": "Jun 2026 — Aug 2026",
+    "icon":"./images/bin_dhaen_holding_logo.jpeg",
+    "highlights": [
+      "Engineered an enterprise web platform tailored for staff training, compliance certification, and audit tracking.",
+      "Contributed as a Full-Stack Developer to database schema design, robust backend business workflows, and production deployment."
+    ],
+    "skills": [
+      "Full-Stack Development",
+      "Database Design",
+      "Enterprise Systems",
+      "Backend Workflows",
+      "Deployment"
+    ]
+  },
+  {
+    "id": "elmakan-speakify",
+    "company": "Elmakan Systems",
+    "role": "Backend Developer Intern",
+    "type": "Internship",
+    "workMode": "Cairo, Egypt",
+    "location": "Cairo, Egypt",
+    "period": "Jul 2025 — Oct 2025",
+    "icon": "./images/elmakan.jpg",
+    "projectLink": "https://speakefy.com/en/",
+    "projectLabel": "Speakify Platform",
+    "highlights": [
+      "Architected RESTful APIs and designed scalable database schemas with Node.js, Express.js, and MongoDB.",
+      "Engineered 10 backend core modules on Speakefy Platform including Courses, Instructors, Plans, Subscriptions, Authentication, Categories, and Blogs.",
+      "Implemented i18next internationalization across all API responses, integrated CDN for optimized media delivery, and secured 100+ endpoints with JWT role-based authorization."
+    ],
+    "skills": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "RESTful APIs",
+      "JWT Auth",
+      "i18next",
+      "CDN Architecture"
+    ]
+  }
+]
