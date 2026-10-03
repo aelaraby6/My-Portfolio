@@ -95,7 +95,7 @@ export default function Model3D() {
         {/* 3D Google Model Viewer */}
         <model-viewer
           ref={modelRef}
-          src="./detective_conan.glb"
+          src={`${import.meta.env.BASE_URL}detective_conan.glb`}
           alt="Detective Conan 3D Model"
           camera-controls
           interpolation-decay="200"
