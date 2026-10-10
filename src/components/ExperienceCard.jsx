@@ -18,6 +18,8 @@ export default function ExperienceCard({ exp }) {
                 src={exp.icon} 
                 alt={exp.company} 
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.parentElement.innerHTML = '<div class="text-cyan-500 font-mono text-base font-bold">💼</div>';

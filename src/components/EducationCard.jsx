@@ -25,6 +25,8 @@ export default function EducationCard({ item }) {
                 src={item.icon} 
                 alt={item.institution} 
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.parentElement.innerHTML = '<div class="text-cyan-500 font-mono text-xl font-bold">🎓</div>';
@@ -145,6 +147,7 @@ export default function EducationCard({ item }) {
                   alt={`${item.institution} media ${idx + 1}`} 
                   className="w-full h-full object-cover group-hover/img:scale-105 transition-transform duration-300"
                   loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-slate-950/30 group-hover/img:bg-transparent transition-colors flex items-center justify-center">
                   <span className="opacity-0 group-hover/img:opacity-100 text-[10px] font-mono text-white bg-slate-900/80 px-2 py-0.5 rounded backdrop-blur-sm transition-opacity">

@@ -63,6 +63,7 @@ export default function Skills({ onBackToHome }) {
                           alt={skill.name}
                           className="w-5 h-5 object-contain group-hover:scale-110 transition-transform"
                           loading="lazy"
+                          decoding="async"
                           onError={(e) => {
                             e.target.style.display = 'none';
                             e.target.parentElement.innerHTML = '<span class="text-cyan-500 text-xs font-mono font-bold">⚡</span>';

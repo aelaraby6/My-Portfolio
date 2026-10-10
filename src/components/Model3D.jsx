@@ -99,6 +99,7 @@ export default function Model3D() {
           alt="Detective Conan 3D Model"
           camera-controls
           interpolation-decay="200"
+          power-preference="high-performance"
           shadow-intensity="1.2"
           shadow-softness="0.8"
           exposure="1.15"

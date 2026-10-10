@@ -49,6 +49,7 @@ export default function CertificatesSection() {
                   alt={cert.title}
                   className="w-full h-full object-cover group-hover/img:scale-105 transition-transform duration-300"
                   loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-slate-950/20 group-hover/img:bg-transparent transition-colors flex items-center justify-center">
                   <span className="opacity-0 group-hover/img:opacity-100 text-[10px] font-mono text-white bg-slate-900/80 px-2 py-0.5 rounded backdrop-blur-sm transition-opacity">
