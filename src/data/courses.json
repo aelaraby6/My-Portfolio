@@ -1,0 +1,313 @@
+[
+  {
+    "id": "vector-databases",
+    "slug": "vector-databases",
+    "title": "Vector Databases: From Zero to RAG",
+    "badge": "Hands-on Masterclass",
+    "category": "AI & Vector Search",
+    "level": "Intermediate",
+    "sessionsCount": 9,
+    "partsCount": 3,
+    "duration": "9 Sessions • ~18 Hours",
+    "runtime": "Google Colab & Python",
+    "githubUrl": "https://github.com/aelaraby6/Vector-Databases-Course",
+    "tagline": "A complete, hands-on course that takes you from \"what is a vector?\" to building and evaluating a production-grade Retrieval-Augmented Generation system.",
+    "overview": "This course provides an in-depth understanding of modern vector databases, high-dimensional semantic search, and production-grade Retrieval-Augmented Generation (RAG) systems. Students learn how to navigate the shift from traditional lexical/keyword search (BM25, TF-IDF) to embedding-driven semantic search, exploring both theoretical foundations and hands-on implementations. The curriculum covers mathematical similarity metrics, Approximate Nearest Neighbor (ANN) algorithms (HNSW, IVF, PQ), chunking strategies, and benchmarking leading vector databases (ChromaDB, FAISS, Qdrant, pgvector). In the capstone module, students build a full-stack RAG pipeline with ChromaDB and open-weight LLMs (Qwen 2.5), quantitatively evaluate retrieval quality using Recall@k and MRR, and harden the system with cross-encoder reranking and hybrid search.",
+    "learningObjectives": [
+      "Understand why traditional keyword search breaks down and how semantic vector representations resolve lexical mismatches.",
+      "Master text and multimodal embeddings, vector spaces, and dimensional reduction techniques like PCA and t-SNE.",
+      "Implement and analyze mathematical similarity metrics: Cosine Similarity, Dot Product, and Euclidean (L2) distance.",
+      "Demystify Approximate Nearest Neighbor (ANN) indexing structures including HNSW, IVF, Product Quantization (PQ), and LSH.",
+      "Architecturally compare and benchmark FAISS, Qdrant, pgvector, ChromaDB, Weaviate, Milvus, and Pinecone.",
+      "Design and tune production text-chunking strategies (fixed-size, sentence-aware, recursive) and measure their impact on retrieval.",
+      "Develop production workflows in ChromaDB from collection indexing to advanced metadata filtering and persistence.",
+      "Construct an end-to-end RAG pipeline (Retrieve, Augment, Generate) using ChromaDB and open-weight models (Qwen 2.5) with zero paid API costs.",
+      "Rigorously evaluate retrieval quality using Recall@k and Mean Reciprocal Rank (MRR), hardening pipelines with Cross-Encoder reranking."
+    ],
+    "keyTopics": [
+      {
+        "title": "Keyword vs Semantic Search",
+        "desc": "Lexical limitations, synonyms, context ambiguity, and dense embedding spaces."
+      },
+      {
+        "title": "Embeddings & Vector Geometry",
+        "desc": "Tokenization, transformer embeddings, dense representations, and dimensional visualization."
+      },
+      {
+        "title": "Similarity Metrics from Scratch",
+        "desc": "Cosine similarity, dot product, and Euclidean distance formulas implemented in NumPy."
+      },
+      {
+        "title": "ANN Algorithms Under the Hood",
+        "desc": "Graph-based (HNSW), inverted file (IVF), and quantization (PQ) indexing for rapid nearest neighbor search."
+      },
+      {
+        "title": "Vector Database Landscape",
+        "desc": "Architectural tradeoffs between embedded libraries (FAISS), dedicated engines (ChromaDB, Qdrant), and SQL extensions (pgvector)."
+      },
+      {
+        "title": "Document Chunking Strategies",
+        "desc": "Fixed vs recursive vs semantic chunking, boundary detection, token preservation, and PDF preprocessing."
+      },
+      {
+        "title": "ChromaDB Core Architecture",
+        "desc": "Collections, document ingestion, embeddings functions, metadata filtering, and persistent vector storage."
+      },
+      {
+        "title": "Production RAG Pipeline",
+        "desc": "The complete Retrieve-Augment-Generate loop paired with open-weight models (Qwen 2.5)."
+      },
+      {
+        "title": "Evaluation, Reranking & Hardening",
+        "desc": "Precision benchmarking via Recall@k and MRR, cross-encoder reranking, and hybrid search."
+      }
+    ],
+    "toolsAndStack": [
+      {
+        "category": "Runtime & Environment",
+        "tools": ["Python 3.10+", "Google Colab", "Jupyter Notebooks"]
+      },
+      {
+        "category": "Vector DBs & Search",
+        "tools": ["ChromaDB", "FAISS", "Qdrant", "pgvector"]
+      },
+      {
+        "category": "Embeddings & Models",
+        "tools": ["Sentence-Transformers", "OpenAI API", "Qwen 2.5 (Open-weight)"]
+      },
+      {
+        "category": "Reranking & Optimization",
+        "tools": ["Cross-Encoder Models", "HNSW / IVF Indexing", "NumPy Vectorization"]
+      },
+      {
+        "category": "Evaluation & Viz",
+        "tools": ["Recall@k", "Mean Reciprocal Rank (MRR)", "PCA & t-SNE", "Matplotlib"]
+      }
+    ],
+    "parts": [
+      {
+        "partNumber": 1,
+        "title": "Part 1 — Fundamentals",
+        "description": "Establish the foundational shift from keyword search to semantic search, understand high-dimensional embeddings, and implement similarity metrics from scratch."
+      },
+      {
+        "partNumber": 2,
+        "title": "Part 2 — How a Vector Database Works Under the Hood",
+        "description": "Deep-dive into indexing algorithms that enable search across millions of vectors, compare the vector database ecosystem, and engineer document chunking pipelines."
+      },
+      {
+        "partNumber": 3,
+        "title": "Part 3 — ChromaDB and RAG",
+        "description": "Build production vector collections with ChromaDB, orchestrate an end-to-end RAG architecture with open-weight models, and evaluate performance with quantitative metrics and reranking."
+      }
+    ],
+    "sessions": [
+      {
+        "session": 1,
+        "part": 1,
+        "partTitle": "Part 1 — Fundamentals",
+        "topic": "Introduction and the Problem with Traditional Search",
+        "description": "Why traditional keyword search breaks down and how semantic vector representations solve the lexical gap.",
+        "slides": {
+          "name": "Session1_Why_Vector_Databases.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session1_Why_Vector_Databases.pptx"
+        },
+        "labPdf": {
+          "name": "Session1_Lab_Keyword_vs_Semantic_Search.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session1_Lab_Keyword_vs_Semantic_Search.pdf"
+        },
+        "notebook": {
+          "name": "Lab1_Keyword_vs_Semantic_Search.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab1_Keyword_vs_Semantic_Search.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab1_Keyword_vs_Semantic_Search.ipynb"
+        }
+      },
+      {
+        "session": 2,
+        "part": 1,
+        "partTitle": "Part 1 — Fundamentals",
+        "topic": "Embeddings & Vector Spaces",
+        "description": "How text and images become dense numerical vectors, exploring embedding spaces and dimensionality visualization.",
+        "slides": {
+          "name": "Session2_Embeddings.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session2_Embeddings.pptx"
+        },
+        "labPdf": {
+          "name": "Session2_Lab_Embeddings_and_Visualization.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session2_Lab_Embeddings_and_Visualization.pdf"
+        },
+        "notebook": {
+          "name": "Lab2_Embeddings_and_Visualization.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab2_Embeddings_and_Visualization.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab2_Embeddings_and_Visualization.ipynb"
+        }
+      },
+      {
+        "session": 3,
+        "part": 1,
+        "partTitle": "Part 1 — Fundamentals",
+        "topic": "Similarity Metrics from Scratch",
+        "description": "The math behind geometric similarity: cosine similarity, dot product, and Euclidean distance built from scratch in NumPy.",
+        "slides": {
+          "name": "Session3_Similarity_Metrics.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session3_Similarity_Metrics.pptx"
+        },
+        "labPdf": {
+          "name": "Session3_Lab_NumPy_Search_Engine.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session3_Lab_NumPy_Search_Engine.pdf"
+        },
+        "notebook": {
+          "name": "Lab3_NumPy_Search_Engine.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab3_NumPy_Search_Engine.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab3_NumPy_Search_Engine.ipynb"
+        }
+      },
+      {
+        "session": 4,
+        "part": 2,
+        "partTitle": "Part 2 — Under the Hood",
+        "topic": "ANN Algorithms and Indexing",
+        "description": "Approximate Nearest Neighbor indexing structures (HNSW, IVF, PQ, LSH) that enable sub-linear search latency.",
+        "slides": {
+          "name": "Session4_ANN_and_Indexing.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session4_ANN_and_Indexing.pptx"
+        },
+        "labPdf": {
+          "name": "Session4_Lab_FAISS_Index_Benchmark.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session4_Lab_FAISS_Index_Benchmark.pdf"
+        },
+        "notebook": {
+          "name": "Lab4_FAISS_Index_Benchmark.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab4_FAISS_Index_Benchmark.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab4_FAISS_Index_Benchmark.ipynb"
+        }
+      },
+      {
+        "session": 5,
+        "part": 2,
+        "partTitle": "Part 2 — Under the Hood",
+        "topic": "The Vector Database Landscape",
+        "description": "Comprehensive architectural benchmark comparing FAISS, ChromaDB, Qdrant, and pgvector for different workloads.",
+        "slides": {
+          "name": "Session5_Vector_DB_Landscape.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session5_Vector_DB_Landscape.pptx"
+        },
+        "labPdf": {
+          "name": "Session5_Lab_FAISS_vs_Qdrant_vs_pgvector.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session5_Lab_FAISS_vs_Qdrant_vs_pgvector.pdf"
+        },
+        "notebook": {
+          "name": "Lab5_FAISS_vs_Qdrant_vs_pgvector.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab5_FAISS_vs_Qdrant_vs_pgvector.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab5_FAISS_vs_Qdrant_vs_pgvector.ipynb"
+        }
+      },
+      {
+        "session": 6,
+        "part": 2,
+        "partTitle": "Part 2 — Under the Hood",
+        "topic": "Data Preparation and Chunking",
+        "description": "Text chunking strategies (fixed, recursive, semantic) and their quantitative impact on retrieval quality across real PDFs.",
+        "slides": {
+          "name": "Session6_Chunking.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session6_Chunking.pptx"
+        },
+        "labPdf": {
+          "name": "Session6_Lab_Chunking_a_Real_PDF.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session6_Lab_Chunking_a_Real_PDF.pdf"
+        },
+        "notebook": {
+          "name": "Lab6_Chunking_a_Real_PDF.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab6_Chunking_a_Real_PDF.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab6_Chunking_a_Real_PDF.ipynb"
+        }
+      },
+      {
+        "session": 7,
+        "part": 3,
+        "partTitle": "Part 3 — ChromaDB and RAG",
+        "topic": "ChromaDB Fundamentals",
+        "description": "Installing and configuring ChromaDB collections, running complex queries, metadata filtering, and persistent stores.",
+        "slides": {
+          "name": "Session7_ChromaDB_Fundamentals.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session7_ChromaDB_Fundamentals.pptx"
+        },
+        "labPdf": {
+          "name": "Session7_Lab_ChromaDB_Collections_and_Queries.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session7_Lab_ChromaDB_Collections_and_Queries.pdf"
+        },
+        "notebook": {
+          "name": "Lab7_ChromaDB_Collections_and_Queries.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab7_ChromaDB_Collections_and_Queries.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab7_ChromaDB_Collections_and_Queries.ipynb"
+        }
+      },
+      {
+        "session": 8,
+        "part": 3,
+        "partTitle": "Part 3 — ChromaDB and RAG",
+        "topic": "RAG with ChromaDB (\"Ask Your Files\")",
+        "description": "Constructing an end-to-end RAG system: retrieving relevant chunks, augmenting system prompts, and generating answers with Qwen 2.5.",
+        "slides": {
+          "name": "Session8_RAG_with_ChromaDB.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session8_RAG_with_ChromaDB.pptx"
+        },
+        "labPdf": {
+          "name": "Session8_Lab_Ask_Your_Files_RAG.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session8_Lab_Ask_Your_Files_RAG.pdf"
+        },
+        "notebook": {
+          "name": "Lab8_Ask_Your_Files_RAG.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab8_Ask_Your_Files_RAG.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab8_Ask_Your_Files_RAG.ipynb"
+        }
+      },
+      {
+        "session": 9,
+        "part": 3,
+        "partTitle": "Part 3 — ChromaDB and RAG",
+        "topic": "Production, Evaluation & Reranking",
+        "description": "Evaluating retrieval with Recall@k and MRR metrics, hardening against hallucinations, and boosting precision via Cross-Encoder reranking.",
+        "slides": {
+          "name": "Session9_Production_and_Evaluation.pptx",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/lectures/Session9_Production_and_Evaluation.pptx"
+        },
+        "labPdf": {
+          "name": "Session9_Lab_Evaluate_and_Harden_RAG.pdf",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/labs/Session9_Lab_Evaluate_and_Harden_RAG.pdf"
+        },
+        "notebook": {
+          "name": "Lab9_Evaluate_and_Harden_RAG.ipynb",
+          "url": "https://github.com/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab9_Evaluate_and_Harden_RAG.ipynb",
+          "colab": "https://colab.research.google.com/github/aelaraby6/Vector-Databases-Course/blob/main/notebooks/Lab9_Evaluate_and_Harden_RAG.ipynb"
+        }
+      }
+    ],
+    "whoThisCourseIsFor": [
+      "Backend & Software Engineers building semantic search engines, contextual recommendation systems, or enterprise knowledge bases.",
+      "Data Scientists & Machine Learning Engineers designing, testing, and evaluating production RAG architectures.",
+      "System Architects evaluating vector database solutions (FAISS, ChromaDB, Qdrant, pgvector) for their tech stack.",
+      "Students & Practitioners seeking a structured, project-driven, and mathematically sound path into vector search."
+    ],
+    "prerequisites": [
+      "Basic Python proficiency (functions, loops, lists, dictionaries, imports).",
+      "Familiarity with the command line and Jupyter notebooks / Google Colab.",
+      "A free Google account for accessing and executing Colab notebooks.",
+      "No prior experience with vector databases, embeddings, or deep learning required."
+    ],
+    "repoStructure": [
+      {
+        "folder": "lectures/",
+        "desc": "Slide decks for each session in Microsoft PowerPoint format (.pptx)."
+      },
+      {
+        "folder": "labs/",
+        "desc": "Lab instruction sheets with guided steps, tasks, and explanations (.pdf)."
+      },
+      {
+        "folder": "notebooks/",
+        "desc": "Ready-to-run Google Colab notebooks with starter code and exercises (.ipynb)."
+      }
+    ]
+  }
+]
