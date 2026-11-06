@@ -1,8 +1,30 @@
 [
   {
+    "id": "search-engine",
+    "title": "Polyglot Search Engine",
+    "category": "Systems",
+    "featured": true,
+    "image": "./images/search-engine.png",
+    "description": "Distributed search engine with async web crawling, inverted indexing, ranked retrieval with sub-50ms cached responses, and click-through analytics. Built as polyglot microservices (Python FastAPI + Node.js NestJS) with Kafka event streaming, Redis caching, PostgreSQL storage, and Nginx gateway.",
+    "stack": ["Python", "FastAPI", "NestJS", "PostgreSQL", "Redis", "Kafka", "Docker", "Nginx"],
+    "github": "https://github.com/Abdelrahman-M-Selim/Search-Engine",
+    "demo": ""
+  },
+  {
+    "id": "basira",
+    "title": "Basira",
+    "category": "AI & ML",
+    "featured": true,
+    "image": "./images/basira.png",
+    "description": "Private, offline document reader for people with low vision. Photograph a paper, bill, or medicine leaflet — Basira reads it aloud and explains it in simple words using local OCR, LLM, and TTS models. Supports Arabic and English with zero cloud dependency.",
+    "stack": ["Python", "Gradio", "Tesseract OCR", "Ollama", "Piper TTS"],
+    "github": "https://github.com/aelaraby6/Basira",
+    "demo": ""
+  },
+  {
     "id": "magitsh",
     "title": "Magitsh",
-    "category": "Backend & Systems",
+    "category": "Systems",
     "featured": true,
     "image": "./images/m.png",
     "description": "Full Git version control implementation in Node.js with core commands (init, add, commit, branch, checkout, merge, diff, log). Implemented Git internals (blobs, trees, commits) with SHA-1 hashing, zlib compression, and DAG-based commit history with BFS for merge-base detection and three-way conflict resolution.",
@@ -13,7 +35,7 @@
   {
     "id": "speakify",
     "title": "Speakify",
-    "category": "Backend & Systems",
+    "category": "Web",
     "featured": true,
     "image": "./images/s.png",
     "description": "Scalable backend architecture for an online English learning platform in the Arab world. Integrated Paymob payments with webhooks, i18next localization, geo detection, and CDN media delivery.",
@@ -22,20 +44,9 @@
     "demo": "https://speakefy.com/en/"
   },
   {
-    "id": "bibliophile-analytics",
-    "title": "Bibliophile Analytics Engine",
-    "category": "AI & Data",
-    "featured": true,
-    "image": "./images/bibliophile_analytics_cover.svg",
-    "description": "AI-powered analytics platform for book insights, user behavior, and subscription intelligence. Built with Node.js + FastAPI sharing a MongoDB database, featuring ML recommendations, Gemini AI integration, and interactive Plotly dashboards.",
-    "stack": ["Python", "FastAPI", "Gemini AI", "Node.js", "TypeScript", "MongoDB", "Stripe"],
-    "github": "https://github.com/aelaraby6/Bibliophile-Analytics-Engine",
-    "demo": ""
-  },
-  {
     "id": "rochetta",
     "title": "Rochetta",
-    "category": "Full Stack",
+    "category": "Web",
     "featured": true,
     "image": "./images/r.png",
     "description": "Full-stack healthcare & pharmacy management platform for browsing, managing prescriptions, inventory tracking, and purchasing medicines online.",
@@ -46,7 +57,7 @@
   {
     "id": "bash-elbalad",
     "title": "Bash-Elbalad",
-    "category": "Backend & Systems",
+    "category": "Systems",
     "featured": false,
     "image": "./images/bs.png",
     "description": "Custom Linux shell engine in C++ implementing process management, command parsing, piping, redirection, and environment variable resolution.",
@@ -57,7 +68,7 @@
   {
     "id": "business-incubator-dbms",
     "title": "Business Incubator Platform DBMS",
-    "category": "Full Stack",
+    "category": "Web",
     "featured": false,
     "image": "./images/b.png",
     "description": "Database-driven web and desktop application designed to manage business incubator operations, startup pipelines, and mentor matching efficiently.",
@@ -68,7 +79,7 @@
   {
     "id": "neural-network-from-scratch",
     "title": "Neural Network From Scratch",
-    "category": "AI & Data",
+    "category": "AI & ML",
     "featured": false,
     "image": "./images/n.png",
     "description": "Feedforward neural network implementation from first mathematical principles in C++, featuring matrix operations, forward/backpropagation, and gradient descent optimization.",
@@ -79,7 +90,7 @@
   {
     "id": "quran-audio-player",
     "title": "Quran Audio Player & Playlist Manager",
-    "category": "Backend & Systems",
+    "category": "Systems",
     "featured": false,
     "image": "./images/q.png",
     "description": "Cross-platform audio player built in C++ using irrKlang sound engine with custom 2D doubly linked list navigation algorithms for efficient reciter and surah traversal.",
@@ -90,7 +101,7 @@
   {
     "id": "monte-carlo-pi",
     "title": "Monte Carlo Pi Estimation",
-    "category": "AI & Data",
+    "category": "AI & ML",
     "featured": false,
     "image": "./images/mn.png",
     "description": "Interactive visual probabilistic simulation estimating the value of Pi using random sampling and geometric probability via the Monte Carlo method in JavaScript.",
@@ -101,7 +112,7 @@
   {
     "id": "hr-tracker",
     "title": "HR Tracker",
-    "category": "Backend & Systems",
+    "category": "Systems",
     "featured": false,
     "image": "./images/h.png",
     "description": "Desktop management application built for the HR leadership team at ICPC Zagazig Community to track, score, and analyze competitive programming community cohorts.",
@@ -112,7 +123,7 @@
   {
     "id": "amazon-products-eda",
     "title": "Amazon Products Exploratory Data Analysis",
-    "category": "AI & Data",
+    "category": "AI & ML",
     "featured": false,
     "image": "./images/am.png",
     "description": "Exploratory data analysis on Amazon product datasets investigating pricing distributions, discount elasticities, customer rating correlations, and business performance metrics.",
@@ -123,7 +134,7 @@
   {
     "id": "learnova",
     "title": "Learnova",
-    "category": "Full Stack",
+    "category": "Web",
     "featured": false,
     "image": "./images/ll.png",
     "description": "Full-stack e-learning and course distribution management platform designed to streamline student enrollments, instructor dashboards, and multimedia content delivery.",
@@ -134,7 +145,7 @@
   {
     "id": "2048-game",
     "title": "2048 Puzzle Game",
-    "category": "Algorithms & C++",
+    "category": "Games",
     "featured": false,
     "image": "./images/gg.png",
     "description": "Clean browser implementation of the classic 2048 puzzle game with tile animation algorithms, score caching, and keyboard event bindings.",
@@ -145,7 +156,7 @@
   {
     "id": "echosteps",
     "title": "EchoSteps",
-    "category": "Algorithms & C++",
+    "category": "Games",
     "featured": false,
     "image": "./images/e.png",
     "description": "2D arcade platformer game built in Java using Swing graphics engine, featuring custom physics collision detection, sprite animation, and state controllers.",
@@ -154,20 +165,9 @@
     "demo": ""
   },
   {
-    "id": "ketabak",
-    "title": "Ketabak Bookstore",
-    "category": "Full Stack",
-    "featured": false,
-    "image": "./images/kk.png",
-    "description": "Online bookstore platform allowing readers to explore catalogs, filter categories, view detailed book summaries, and manage favorites.",
-    "stack": ["JavaScript", "HTML5", "CSS3", "Responsive UI"],
-    "github": "https://github.com/aelaraby6/Ketabak",
-    "demo": "https://aelaraby6.github.io/Ketabak"
-  },
-  {
     "id": "pokemon-game",
     "title": "Pokemon 2D Battle Game",
-    "category": "Algorithms & C++",
+    "category": "Games",
     "featured": false,
     "image": "./images/po.png",
     "description": "Retro 2D Pokemon-inspired browser mini-game featuring turn-based battle mechanics, HP calculations, and canvas rendering.",
@@ -178,7 +178,7 @@
   {
     "id": "contact-manager-book",
     "title": "Contact Manager Book",
-    "category": "Algorithms & C++",
+    "category": "Systems",
     "featured": false,
     "image": "./images/cm.png",
     "description": "C++ contact management application built with object-oriented principles, dynamic memory allocation arrays, persistent file stream I/O, and binary search.",

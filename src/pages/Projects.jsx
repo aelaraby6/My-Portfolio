@@ -6,13 +6,7 @@ import { FolderGit2, ArrowLeft, Filter } from 'lucide-react';
 export default function Projects({ onBackToHome }) {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = useMemo(() => {
-    const set = new Set(['All']);
-    projectsData.forEach(p => {
-      if (p.category) set.add(p.category);
-    });
-    return Array.from(set);
-  }, []);
+  const categories = ['All', 'Web', 'AI & ML', 'Systems', 'Games'];
 
   const filteredProjects = useMemo(() => {
     if (activeCategory === 'All') return projectsData;
