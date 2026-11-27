@@ -1,6 +1,26 @@
 [
   {
     "id": 1,
+    "title": "AWS Certified Cloud Practitioner",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "November 2026",
+    "icon": "☁️",
+    "link": "https://drive.google.com/file/d/1V5rYZHDQZ2PmiVFVEVF0lPi6fstLIbiP/view?usp=sharing",
+    "image": "./images/certificates/aws-cloud-practitioner.png",
+    "tag": "Cloud Computing"
+  },
+  {
+    "id": 2,
+    "title": "Google Agile Essentials",
+    "issuer": "Google",
+    "date": "September 2026",
+    "icon": "📋",
+    "link": "https://drive.google.com/file/d/1FCf4hfBtaXGzIzx70qtl9gEoQLTnzONd/view?usp=sharing",
+    "image": "./images/certificates/google-agile-essentials.jpg",
+    "tag": "Agile & Scrum"
+  },
+  {
+    "id": 3,
     "title": "Algorithm Analysis And Design",
     "issuer": "Udemy",
     "date": "May 2025",
@@ -10,7 +30,7 @@
     "tag": "Algorithms"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "NASA Space Apps Challenge",
     "issuer": "NASA",
     "date": "October 2024",
@@ -20,7 +40,7 @@
     "tag": "Hackathon & Space"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "JavaScript Intermediate",
     "issuer": "HackerRank",
     "date": "Sep 2025",
@@ -30,7 +50,7 @@
     "tag": "Problem Solving"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "IEEE Basic AI Track",
     "issuer": "IEEE",
     "date": "October 2025",
@@ -40,7 +60,7 @@
     "tag": "Artificial Intelligence"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Digital Marketing Fundamentals",
     "issuer": "Udemy",
     "date": "September 2023",
